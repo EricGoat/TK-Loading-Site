@@ -1,6 +1,6 @@
 .background-art {
 	position: absolute;
-	height: 100%;
+	height: 100vh;
 	width: 100%;
 	z-index: -1;
 }
@@ -12,9 +12,9 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	color: white;
 
 	&__content {
 		text-align: center;
+		color: white;
 	}
 }
