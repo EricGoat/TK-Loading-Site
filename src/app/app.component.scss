@@ -1,3 +1,5 @@
+@import '../styles';
+
 .background-art {
 	position: absolute;
 	height: 100vh;
@@ -15,6 +17,6 @@
 
 	&__content {
 		text-align: center;
-		color: white;
+		color: $off-white;
 	}
 }
